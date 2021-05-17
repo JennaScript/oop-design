@@ -14,21 +14,21 @@ class Auto:
     def setWheels(self, wheels):
         if wheels == 4:
             self.wheels = wheels
-            print("You chose a sedan type car")
+            print("You chose a sedan type car.")
         elif wheels > 4:
             self.wheels = wheels
-            print("You chose a semi truck")
+            print("You chose a semi truck.")
 
     #set engine type
     def setEngine(self, engine):
         if engine == "Gas":
             self.engine = "Gas"
-            print("Your car is gas powered")
+            print("Your car is gas powered.")
         elif engine == "Electric":
             self.engine = "Electric"
-            print("Your car is electric powered")
+            print("Your car is electric powered.")
         else:
-            print("Please choose Gas or Electric as your engine")
+            print("Please choose Gas or Electric as your engine.")
 
     def setModel(self, model):
         self.model = model
@@ -40,10 +40,10 @@ class Auto:
 
     @staticmethod
     def get_class_details():
-        print("this is the parent Auto class")
+        print("This is the parent, Auto class.")
 
     def start(self):
-        print("Engine started... ROOM ROOM")
+        print("Engine started... VROOM VROOM.")
 
     def stop(self):
-        print("Engine has been turnedd off")
+        print("Engine has been turned off.")

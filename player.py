@@ -23,7 +23,7 @@ class Player():
         if self.balance > price:
             self.balance -= price
             self.cars += 1 
-            print("You've bought this car") 
+            print("You bought this car.") 
         else:
             print("Sorry. You don't have enough money to buy this car!")
 
