@@ -34,4 +34,4 @@ class Player():
             self.balance += price
             self.cars -= 1
         else:
-            "You're unable to sell a car due to havingg no cars."
+            "You're unable to sell a car due to having no cars."

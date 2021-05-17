@@ -14,20 +14,19 @@ class Electric(Auto):
         self.price = price
 
 
-
     def sellCar(self, price):
         if self.cars < price:
-            print("you have sold the car")
+            print("You have sold the car.")
             self.cars -= 1
         else:
-            print("you need a car to sell")
+            print("You need a car to sell.")
 
 
     def start(self):
-        print("Car started...Battery on")
+        print("Car started... Battery on.")
 
     def stop(self):
-        print("Engine has been turnedd off")
+        print("Engine has been turned off.")
 
 
 new_car = Electric(1, 50000, 4, model= "Tesla")
